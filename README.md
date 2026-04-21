@@ -57,7 +57,7 @@ gcc -S -o hello_host.s src/hello.c
 The following command will create a file called `hello_target.s` which will contain the assembly code for the target system:
 
 ```bash
-arm-none-eabi-gcc -S -o hello_target.s src/hello.c
+arm-linux-gnueabi-gcc -S -o hello_target.s src/hello.c
 ```
 
 Open each of the `.s` files and observe the assembly generated for each system. Use these files to answer questions in the accompanying questions file that you will turn in for this assignment. (See the section on [What to Turn In](#what-to-turn-in)).
