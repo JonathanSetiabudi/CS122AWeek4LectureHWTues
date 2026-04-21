@@ -73,7 +73,7 @@ gcc -o hello_host -static src/hello.c
 The following is the command to compile the code for the target system:
 
 ```bash
-arm-none-eabi-gcc -o hello_target -static src/hello.c
+arm-linux-gnueabi-gcc -o hello_target -static src/hello.c
 ```
 
 ## Exploring the Executables
